@@ -26,7 +26,6 @@ const NumberInput = ({ label, value, setValue }: Props) => {
       type: "SET_VALUE",
       payload: { index: setValue.index, value: cleanedValue },
     });
-    console.log(value);
   };
 
   return (

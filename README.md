@@ -1,3 +1,3 @@
-# Calculeito
+# Calculeitor
 
 Documentación en progreso.

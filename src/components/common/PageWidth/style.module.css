@@ -1,0 +1,6 @@
+.PageWidth {
+    max-inline-size: 1030px;
+    min-block-size: calc(100vh - 120px);
+    padding-inline: 15px;
+    margin-inline: auto;
+}

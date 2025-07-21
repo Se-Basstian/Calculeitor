@@ -1,0 +1,28 @@
+.Result {
+    inline-size: 250px;
+    block-size: 100px;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 5px;
+
+    background-color: #fac638;
+}
+
+.Result__h3 {
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.Result__p {
+    color: white;
+    font-size: 3.8rem;
+    font-weight: bold;
+
+    filter: drop-shadow(1px 1px 1px black);
+}

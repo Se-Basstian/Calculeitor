@@ -1,0 +1,15 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    block-size: 60px;
+    padding-inline: 30px;
+    border-block-end: 1px solid darkgray;
+}
+
+.Header__h1 {
+    inline-size: fit-content;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

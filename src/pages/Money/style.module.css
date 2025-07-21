@@ -1,0 +1,27 @@
+.Money {
+    padding-block: 35px;
+}
+
+.Money__h2 {
+    font-size: 4rem;
+}
+
+.Money__NumberInputGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    @media (width <= 720px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (width <= 470px) {
+        grid-template-columns: 1fr;
+    }
+
+    margin-block: 30px 40px;
+}
+
+.Money__NumberInputGroup > * {
+    justify-self: center;
+}

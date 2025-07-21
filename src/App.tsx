@@ -1,7 +1,15 @@
-import "./App.css";
+import { Route, Routes } from "react-router";
+import DefaultLayout from "./components/layout/DefaultLayout";
+import Money from "./pages/Money";
 
 function App() {
-  return <p>App</p>;
+  return (
+    <Routes>
+      <Route element={<DefaultLayout />}>
+        <Route index element={<Money />} />
+      </Route>
+    </Routes>
+  );
 }
 
 export default App;

@@ -1,0 +1,31 @@
+.NumberInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    inline-size: fit-content;
+    block-size: 38px;
+    padding: 4px;
+
+    border-radius: 5px;
+
+    background-color: #f5f0e5;
+}
+
+.NumberInput__label {
+    inline-size: 88px;
+    font-size: 2rem;
+}
+
+.NumberInput__input {
+    inline-size: 100px;
+    block-size: 90%;
+    padding-inline-start: 10px;
+
+    border: none;
+    border-radius: 2px;
+
+    font-size: 1.8rem;
+
+    outline: none;
+}

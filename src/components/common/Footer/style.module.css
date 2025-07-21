@@ -1,0 +1,15 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    block-size: 60px;
+    padding-inline: 30px;
+
+    font-size: 1.8rem;
+}
+
+.Footer__p {
+    inline-size: fit-content;
+    text-align: center;
+}
